@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C50DE17D2493316600882E0A /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50DE17C2493316600882E0A /* Webservice.swift */; };
 		C50DE1802493334800882E0A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50DE17F2493334800882E0A /* Order.swift */; };
+		C50DE18324935FEB00882E0A /* OrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50DE18224935FEB00882E0A /* OrderViewModel.swift */; };
 		C5C98E6624910D7B001048E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C98E6524910D7B001048E7 /* AppDelegate.swift */; };
 		C5C98E6824910D7B001048E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C98E6724910D7B001048E7 /* SceneDelegate.swift */; };
 		C5C98E6D24910D7B001048E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C98E6B24910D7B001048E7 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		C50DE17C2493316600882E0A /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		C50DE17F2493334800882E0A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		C50DE18224935FEB00882E0A /* OrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewModel.swift; sourceTree = "<group>"; };
 		C5C98E6224910D7B001048E7 /* CoffeeOrderMVVMUdemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeOrderMVVMUdemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C98E6524910D7B001048E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5C98E6724910D7B001048E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		C50DE18124935FD100882E0A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				C50DE18224935FEB00882E0A /* OrderViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		C5C98E5924910D7B001048E7 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +88,7 @@
 		C5C98E6424910D7B001048E7 /* CoffeeOrderMVVMUdemy */ = {
 			isa = PBXGroup;
 			children = (
+				C50DE18124935FD100882E0A /* View Model */,
 				C50DE17E2493331500882E0A /* Model */,
 				C50DE17B2493315300882E0A /* Services */,
 				C5C98E7924910E6B001048E7 /* Controller */,
@@ -176,6 +187,7 @@
 				C5C98E6824910D7B001048E7 /* SceneDelegate.swift in Sources */,
 				C5C98E7B24910F57001048E7 /* OrdersTableViewController.swift in Sources */,
 				C50DE17D2493316600882E0A /* Webservice.swift in Sources */,
+				C50DE18324935FEB00882E0A /* OrderViewModel.swift in Sources */,
 				C5C98E7D24910F80001048E7 /* AddOrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
